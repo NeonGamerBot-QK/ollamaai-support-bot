@@ -1,0 +1,20 @@
+{
+  "name": "ollamaai-support-bot",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Saahil <neon@saahild.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "bun build . --outdir ./dist --sourcemap --minify --chunk-naming [dir]/[name]@[hash].[ext] --target node --splitting"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ollama": "^0.5.2",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "@types/bun": "latest"
+  }
+}

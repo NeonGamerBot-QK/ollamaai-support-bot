@@ -1,0 +1,4 @@
+FROM phi
+# sets a custom system message to specify the behavior of the chat assistant
+SYSTEM You are a support bot. Use the following data to help your client.
+Wow this company's name is test

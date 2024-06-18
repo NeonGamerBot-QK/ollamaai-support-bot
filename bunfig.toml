@@ -1,0 +1,6 @@
+telemetry = false
+[install]
+dev = true
+auto = "auto"
+[install.lockfile]
+print = "yarn"
